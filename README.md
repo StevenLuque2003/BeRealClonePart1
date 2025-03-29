@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 - [ x] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
-
+**Part 1 screen recording**
 <div>
     <a href="https://www.loom.com/share/a8b491bda31d4d06ba605fd0243534b3">
       <p>Videos | Library | Loom - 29 March 2025 - Watch Video</p>
@@ -39,6 +39,8 @@ The following **additional** features are implemented:
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a8b491bda31d4d06ba605fd0243534b3-68c9d478dcd750c8-full-play.gif">
     </a>
   </div>
+
+  **Part 2 screen recording**
 
   <div>
     <a href="https://www.loom.com/share/29882058e36c40c18d20e933143d746a">
