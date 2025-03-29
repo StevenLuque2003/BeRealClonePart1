@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ParseSwift in Pods, no dependencies
+Pods-Bereal-clone in Pods, depends on:
+ParseSwift in Pods (explicit)

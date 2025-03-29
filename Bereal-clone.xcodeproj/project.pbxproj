@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162E677329D0C53E003290F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E677229D0C53E003290F2 /* AppDelegate.swift */; };
+		162E677529D0C53E003290F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E677429D0C53E003290F2 /* SceneDelegate.swift */; };
+		162E677729D0C53E003290F2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E677629D0C53E003290F2 /* LoginViewController.swift */; };
+		162E677A29D0C53E003290F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162E677829D0C53E003290F2 /* Main.storyboard */; };
+		162E677C29D0C53F003290F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E677B29D0C53F003290F2 /* Assets.xcassets */; };
+		162E677F29D0C53F003290F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162E677D29D0C53F003290F2 /* LaunchScreen.storyboard */; };
+		162E678C29D0DD08003290F2 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E678B29D0DD08003290F2 /* SignupViewController.swift */; };
+		162E678E29D0DD28003290F2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E678D29D0DD28003290F2 /* Users.swift */; };
+		162E679029D0DD3A003290F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E678F29D0DD3A003290F2 /* Post.swift */; };
+		162E679229D0DD4D003290F2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679129D0DD4D003290F2 /* FeedViewController.swift */; };
+		162E679429D0DD70003290F2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679329D0DD70003290F2 /* PostCell.swift */; };
+		162E679629D0DD89003290F2 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679529D0DD89003290F2 /* PostViewController.swift */; };
+		162E679829D0DDA4003290F2 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E679729D0DDA4003290F2 /* DateFormatter.swift */; };
+		66017A3CE46A7B68F7FA703C /* Pods_Bereal_clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bereal_clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		162E676F29D0C53E003290F2 /* Bereal-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bereal-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162E677229D0C53E003290F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		162E677429D0C53E003290F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		162E677629D0C53E003290F2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		162E677929D0C53E003290F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		162E677B29D0C53F003290F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162E677E29D0C53F003290F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162E678029D0C53F003290F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162E678B29D0DD08003290F2 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		162E678D29D0DD28003290F2 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		162E678F29D0DD3A003290F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		162E679129D0DD4D003290F2 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		162E679329D0DD70003290F2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		162E679529D0DD89003290F2 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		162E679729D0DDA4003290F2 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		6BD9DEB7F1F6929D4291D055 /* Pods-Bereal-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bereal-clone.debug.xcconfig"; path = "Target Support Files/Pods-Bereal-clone/Pods-Bereal-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		B9DE47702A18B896C3F78A84 /* Pods-Bereal-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bereal-clone.release.xcconfig"; path = "Target Support Files/Pods-Bereal-clone/Pods-Bereal-clone.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162E676C29D0C53E003290F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66017A3CE46A7B68F7FA703C /* Pods_Bereal_clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162E676629D0C53E003290F2 = {
+			isa = PBXGroup;
+			children = (
+				162E677129D0C53E003290F2 /* Bereal-clone */,
+				162E677029D0C53E003290F2 /* Products */,
+				55E38F299F14BF6D127D18AB /* Pods */,
+				FAD965C7D1BCC6E617F8F7F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		162E677029D0C53E003290F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162E676F29D0C53E003290F2 /* Bereal-clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162E677129D0C53E003290F2 /* Bereal-clone */ = {
+			isa = PBXGroup;
+			children = (
+				162E677229D0C53E003290F2 /* AppDelegate.swift */,
+				162E677429D0C53E003290F2 /* SceneDelegate.swift */,
+				162E677829D0C53E003290F2 /* Main.storyboard */,
+				162E677B29D0C53F003290F2 /* Assets.xcassets */,
+				162E678A29D0C68C003290F2 /* Login */,
+				162E678929D0C64D003290F2 /* Models */,
+				162E678829D0C643003290F2 /* Feed */,
+				162E678729D0C636003290F2 /* Post */,
+				162E678629D0C61D003290F2 /* Extension */,
+				162E677D29D0C53F003290F2 /* LaunchScreen.storyboard */,
+				162E678029D0C53F003290F2 /* Info.plist */,
+			);
+			path = "Bereal-clone";
+			sourceTree = "<group>";
+		};
+		162E678629D0C61D003290F2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				162E679729D0DDA4003290F2 /* DateFormatter.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		162E678729D0C636003290F2 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				162E679529D0DD89003290F2 /* PostViewController.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		162E678829D0C643003290F2 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				162E679129D0DD4D003290F2 /* FeedViewController.swift */,
+				162E679329D0DD70003290F2 /* PostCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		162E678929D0C64D003290F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				162E678D29D0DD28003290F2 /* Users.swift */,
+				162E678F29D0DD3A003290F2 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		162E678A29D0C68C003290F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				162E677629D0C53E003290F2 /* LoginViewController.swift */,
+				162E678B29D0DD08003290F2 /* SignupViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		55E38F299F14BF6D127D18AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BD9DEB7F1F6929D4291D055 /* Pods-Bereal-clone.debug.xcconfig */,
+				B9DE47702A18B896C3F78A84 /* Pods-Bereal-clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAD965C7D1BCC6E617F8F7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105933D7B2D13DD7886E0286 /* Pods_Bereal_clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162E676E29D0C53E003290F2 /* Bereal-clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162E678329D0C53F003290F2 /* Build configuration list for PBXNativeTarget "Bereal-clone" */;
+			buildPhases = (
+				8F9CBDB94825CD4F30775208 /* [CP] Check Pods Manifest.lock */,
+				162E676B29D0C53E003290F2 /* Sources */,
+				162E676C29D0C53E003290F2 /* Frameworks */,
+				162E676D29D0C53E003290F2 /* Resources */,
+				96F58F465D849544C681F423 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bereal-clone";
+			productName = "Bereal-clone";
+			productReference = 162E676F29D0C53E003290F2 /* Bereal-clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162E676729D0C53E003290F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					162E676E29D0C53E003290F2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 162E676A29D0C53E003290F2 /* Build configuration list for PBXProject "Bereal-clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162E676629D0C53E003290F2;
+			productRefGroup = 162E677029D0C53E003290F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162E676E29D0C53E003290F2 /* Bereal-clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162E676D29D0C53E003290F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E677F29D0C53F003290F2 /* LaunchScreen.storyboard in Resources */,
+				162E677C29D0C53F003290F2 /* Assets.xcassets in Resources */,
+				162E677A29D0C53E003290F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F9CBDB94825CD4F30775208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bereal-clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F58F465D849544C681F423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bereal-clone/Pods-Bereal-clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bereal-clone/Pods-Bereal-clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bereal-clone/Pods-Bereal-clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162E676B29D0C53E003290F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E679629D0DD89003290F2 /* PostViewController.swift in Sources */,
+				162E677729D0C53E003290F2 /* LoginViewController.swift in Sources */,
+				162E677329D0C53E003290F2 /* AppDelegate.swift in Sources */,
+				162E678E29D0DD28003290F2 /* Users.swift in Sources */,
+				162E679829D0DDA4003290F2 /* DateFormatter.swift in Sources */,
+				162E679029D0DD3A003290F2 /* Post.swift in Sources */,
+				162E678C29D0DD08003290F2 /* SignupViewController.swift in Sources */,
+				162E677529D0C53E003290F2 /* SceneDelegate.swift in Sources */,
+				162E679229D0DD4D003290F2 /* FeedViewController.swift in Sources */,
+				162E679429D0DD70003290F2 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		162E677829D0C53E003290F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162E677929D0C53E003290F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		162E677D29D0C53F003290F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162E677E29D0C53F003290F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162E678129D0C53F003290F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		162E678229D0C53F003290F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162E678429D0C53F003290F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD9DEB7F1F6929D4291D055 /* Pods-Bereal-clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z42TAJ98U8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bereal-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera in order to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven.Bereal-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162E678529D0C53F003290F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DE47702A18B896C3F78A84 /* Pods-Bereal-clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z42TAJ98U8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bereal-clone/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera in order to take pictures.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven.Bereal-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162E676A29D0C53E003290F2 /* Build configuration list for PBXProject "Bereal-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162E678129D0C53F003290F2 /* Debug */,
+				162E678229D0C53F003290F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162E678329D0C53F003290F2 /* Build configuration list for PBXNativeTarget "Bereal-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162E678429D0C53F003290F2 /* Debug */,
+				162E678529D0C53F003290F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162E676729D0C53E003290F2 /* Project object */;
+}

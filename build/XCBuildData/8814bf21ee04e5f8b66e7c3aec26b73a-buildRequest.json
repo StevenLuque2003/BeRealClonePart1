@@ -1,0 +1,48 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98b467c10c82203fbc8430c4bc870a0e48"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e980a0460fa9c67c856e97f37d989445619"
+    }
+  ],
+  "containerPath" : "/Users/khiemtranle/Desktop/Code/University/CodePath/Bereal-clone/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/khiemtranle/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/khiemtranle/Library/Developer/Xcode/DerivedData/Pods-dlevvfubydewrhaptulxadglrzae/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/khiemtranle/Library/Developer/Xcode/DerivedData/Pods-dlevvfubydewrhaptulxadglrzae/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
